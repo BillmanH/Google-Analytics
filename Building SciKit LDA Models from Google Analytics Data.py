@@ -30,7 +30,7 @@ n_top_words = 20
 
 # In[11]:
 
-MyFile = r"C:\Users\Bill\Desktop\Tahzoo.com Redesign\GoogleAnalytics\Experiments\labels_categories_actions.tsv"
+MyFile = r"C:\Users\Bill\Desktop\GoogleAnalytics\Experiments\labels_categories_actions.tsv"
 d1 = pd.read_csv(MyFile, sep="\t")
 d1.head()
 
